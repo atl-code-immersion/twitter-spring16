@@ -17,3 +17,83 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
+
+ .opaque {
+	opacity: 0.2;
+}
+
+.row1 {
+	height: 1em;
+}
+
+.tag-topic-header {
+	background-color: #2fc2ef;
+	color: white;
+}
+
+.mini-pic {
+	width: 50px;
+}
+
+.borderline {
+	border: 1px solid #d8d8d8;
+}
+
+.tweet-area {
+	padding-top: 10px;
+}
+
+.center-it {
+	text-align: center;
+}
+
+.pleft-10 {
+	padding-left: 10px;
+}
+
+.pbot-50 {
+	padding-bottom: 50px;
+}
+
+.new-tweet-area {
+	background-color: #eaf8fd;
+	padding: 10px;
+	border: 1px solid #cbeffb;
+	border-radius: 5px 5px 0 0;
+}
+
+.mtop-6 {
+	margin-top: 6px;
+}
+
+input::-webkit-input-placeholder {
+color: #2fc2ef !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+color: #2fc2ef !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #2fc2ef !important;
+}
+
+input:-ms-input-placeholder {
+color: #2fc2ef !important;
+}
+
+a:hover.no-underline{
+	text-decoration: none;
+}
+
+// .modal-body {
+// 	background-color: #eaf8fd;
+// }
+
+// .red-text {
+// 	color: red;
+// }
+
+.cant-see-me {
+	display: none;
+}
